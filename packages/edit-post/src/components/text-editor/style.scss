@@ -1,6 +1,7 @@
 .edit-post-text-editor {
 	position: relative;
 	width: 100%;
+	height: calc(100% - 56px);
 	background-color: $white;
 	flex-grow: 1;
 
