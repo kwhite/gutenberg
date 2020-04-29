@@ -1,9 +1,12 @@
 .edit-post-text-editor__body {
 	height: 100%;
+	overflow: hidden;
+	flex: 1;
 
 	textarea.editor-post-text-editor {
 		border: $border-width solid $light-gray-secondary;
 		display: block;
+		flex: 1;
 		margin: 0;
 		width: 100%;
 		box-shadow: none;
@@ -12,7 +15,6 @@
 		line-height: 150%;
 		border-radius: 0;
 		padding: $grid-unit-20;
-		min-height: 200px;
 		height: 100%;
 		overflow: auto;
 
